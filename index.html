@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Video</title>
+    <!-- Link to external script -->
+    <script language="javascript" src="src/main.js" type="text/javascript" defer></script>
+    <!-- Link to Css -->
+   <link rel="stylesheet" type="text/css" href="src/style.css">
+   <!-- Link to Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+       <img src="public/Loading Dots.gif" alt="pre-loader">
+    </div>
+    <video id="bg-video" autoplay muted loop>
+      <source src="public/background-video.mp4" type="video/mp4" />
+    </video>
+    <div class="video-overlay"></div>
+    <div class="back-ctnr">
+      <div><h1>Sahand Ghavidel</h1></div>
+      <button class="button">
+        <div class="button-outer">
+          <div class="button-inner">
+            <span><i class="fa fa-pause" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </button>
+    </div>
+  </body>
+</html>
